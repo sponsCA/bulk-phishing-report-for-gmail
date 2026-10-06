@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-16 -16 128 128" width="128" height="128">
+  <!-- 128 px version: a 96 px drawing with a 16 px transparent margin (Chrome Web Store rule). -->
+  <path d="M32.1 0 H63.9 C73.14 0 77.76 0 82.74 1.57 C88.17 3.55 92.45 7.83 94.43 13.26 C96 18.24 96 22.86 96 32.1 V63.9 C96 73.14 96 77.76 94.43 82.74 C92.45 88.17 88.17 92.45 82.74 94.43 C77.76 96 73.14 96 63.9 96 H32.1 C22.86 96 18.24 96 13.26 94.43 C7.83 92.45 3.55 88.17 1.57 82.74 C0 77.76 0 73.14 0 63.9 V32.1 C0 22.86 0 18.24 1.57 13.26 C3.55 7.83 7.83 3.55 13.26 1.57 C18.24 0 22.86 0 32.1 0 Z" fill="#B32735"/>
+  <g transform="translate(-2 4)" fill="none">
+    <path d="M59 17.0 V0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="59" cy="26" r="6" stroke="#FFFFFF" stroke-width="7"/>
+    <path d="M59 32 V56 A14 14 0 0 1 31 56 V46" stroke="#FFFFFF" stroke-width="7"/>
+    <path d="M27.5 57 V34 L42.5 52 L34.5 46 V57 Z" fill="#FFFFFF"/>
+  </g>
+</svg>

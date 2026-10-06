@@ -1,0 +1,10 @@
+.playwright-mcp/
+# The maintainer's personal instructions, never published
+CLAUDE.local.md
+
+# Working tickets, kept locally
+.scratch/
+
+# Specification and manual checklist, kept locally
+docs/spec.md
+docs/manual-checklist.md

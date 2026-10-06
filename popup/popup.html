@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bulk Phishing Report</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1 class="header">
+    <svg viewBox="18 0 56 80" aria-hidden="true"><g transform="translate(-2 4)" fill="none" stroke="currentColor"><path d="M59 17 V-4" stroke-width="5" stroke-linecap="round"/><circle cx="59" cy="26" r="6.5" stroke-width="9"/><path d="M59 32 V56 A14 14 0 0 1 31 56 V46" stroke-width="9"/><path d="M26.5 57 V32 L44 52 L35.5 46 V57 Z" fill="currentColor" stroke="none"/></g></svg>
+    Bulk Phishing Report
+  </h1>
+  <main>
+    <label class="row">
+      <span data-i18n="dryRunMode"></span>
+      <input type="checkbox" id="dry-run" role="switch">
+    </label>
+    <p id="status" class="status"></p>
+    <div id="dry-run-area" hidden>
+      <button type="button" id="reset" data-i18n="resetDryRun"></button>
+      <p id="message" class="status" aria-live="polite"></p>
+    </div>
+    <p class="status" data-i18n="tabsReload"></p>
+  </main>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

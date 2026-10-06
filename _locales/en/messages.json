@@ -1,0 +1,317 @@
+{
+  "extName": {
+    "message": "Bulk Phishing Report for Gmail",
+    "description": "Extension name"
+  },
+  "extShortName": {
+    "message": "Bulk Phishing Report",
+    "description": "Short extension name"
+  },
+  "extDescription": {
+    "message": "Reports as phishing the conversations selected in Gmail's Spam folder.",
+    "description": "Extension description"
+  },
+  "actionTitle": {
+    "message": "Bulk Phishing Report for Gmail: dry-run mode",
+    "description": "Tooltip of the toolbar icon"
+  },
+  "reportSelection": {
+    "message": "Report selection",
+    "description": "Button in the Spam toolbar"
+  },
+  "dryRunSuffix": {
+    "message": " (dry run)",
+    "description": "Appended to the button and dialog titles in dry-run mode"
+  },
+  "badgeReported": {
+    "message": "Reported",
+    "description": "Badge on a conversation already reported"
+  },
+  "nothingToReport": {
+    "message": "Nothing to report",
+    "description": "Dialog title"
+  },
+  "noConversationRecognised": {
+    "message": "No conversation recognised in the selection."
+  },
+  "alreadyReportedOne": {
+    "message": "This conversation is already reported."
+  },
+  "alreadyReportedMany": {
+    "message": "These $count$ conversations are already reported.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmTitleOne": {
+    "message": "Report 1 conversation as phishing?",
+    "description": "Confirmation title"
+  },
+  "confirmTitleMany": {
+    "message": "Report $count$ conversations as phishing?",
+    "description": "Confirmation title",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "dryRunNotice": {
+    "message": "Dry run: nothing will be sent to Google."
+  },
+  "skippedOne": {
+    "message": "1 conversation already reported will be skipped."
+  },
+  "skippedMany": {
+    "message": "$count$ conversations already reported will be skipped.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteOption": {
+    "message": "Delete forever after reporting (cannot be undone)",
+    "description": "Checkbox label"
+  },
+  "deleteOptionDryRun": {
+    "message": "Delete forever after reporting (simulated: nothing is deleted)",
+    "description": "Checkbox label in dry-run mode"
+  },
+  "cancel": {
+    "message": "Cancel",
+    "description": "Button"
+  },
+  "report": {
+    "message": "Report",
+    "description": "Button"
+  },
+  "close": {
+    "message": "Close",
+    "description": "Button"
+  },
+  "runningTitle": {
+    "message": "Reporting…",
+    "description": "Progress dialog title"
+  },
+  "progress": {
+    "message": "$index$/$total$ processed…",
+    "description": "Progress text",
+    "placeholders": {
+      "index": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "stop": {
+    "message": "Stop",
+    "description": "Button"
+  },
+  "stopping": {
+    "message": "Stopping after the current conversation…",
+    "description": "Stop button once clicked"
+  },
+  "doneTitle": {
+    "message": "Reporting finished",
+    "description": "Summary title"
+  },
+  "stoppedTitle": {
+    "message": "Reporting stopped",
+    "description": "Summary title after a stop"
+  },
+  "reportedOne": {
+    "message": "1 reported",
+    "description": "Summary counter"
+  },
+  "reportedMany": {
+    "message": "$count$ reported",
+    "description": "Summary counter",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "failedCount": {
+    "message": "$count$ failed",
+    "description": "Summary counter",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "deletedCount": {
+    "message": "$count$ deleted",
+    "description": "Summary counter",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "skippedCount": {
+    "message": "$count$ skipped (already reported)",
+    "description": "Summary counter",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "notProcessedCount": {
+    "message": "$count$ not processed because of the stop",
+    "description": "Summary counter",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "reportByHand": {
+    "message": "To report by hand:"
+  },
+  "deleteByHand": {
+    "message": "Reported, but to delete by hand:"
+  },
+  "withReason": {
+    "message": ": $reason$",
+    "description": "Appended to a conversation with its failure reason",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "runInterrupted": {
+    "message": "Reporting interrupted",
+    "description": "Error dialog title"
+  },
+  "errorMessage": {
+    "message": "Error: $message$",
+    "description": "Error dialog text",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "afterSeconds": {
+    "message": "$reason$ (after $seconds$ s)",
+    "description": "Failure reason after a timeout",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      },
+      "seconds": {
+        "content": "$2"
+      }
+    }
+  },
+  "invalidConversationId": {
+    "message": "Invalid conversation identifier",
+    "description": "Failure reason"
+  },
+  "conversationNotOpened": {
+    "message": "Conversation not opened",
+    "description": "Failure reason"
+  },
+  "messageMenuNotFound": {
+    "message": "Message ⋮ menu not found",
+    "description": "Failure reason"
+  },
+  "reportItemNotFound": {
+    "message": "« Report phishing » item not found in the ⋮ menu",
+    "description": "Failure reason"
+  },
+  "confirmationNotShown": {
+    "message": "Gmail's confirmation not shown",
+    "description": "Failure reason"
+  },
+  "confirmButtonNotFound": {
+    "message": "Confirm button not found",
+    "description": "Failure reason"
+  },
+  "viewChangedBeforeConfirm": {
+    "message": "The displayed conversation changed before the confirmation",
+    "description": "Failure reason"
+  },
+  "confirmationNotClosed": {
+    "message": "Gmail's confirmation did not close",
+    "description": "Failure reason"
+  },
+  "menuStillOpen": {
+    "message": "⋮ menu still open",
+    "description": "Failure reason"
+  },
+  "conversationNotReopened": {
+    "message": "Conversation not reopened for deletion",
+    "description": "Failure reason"
+  },
+  "conversationsChecked": {
+    "message": "Conversations are checked in the list: deletion avoided",
+    "description": "Failure reason"
+  },
+  "deleteButtonNotFound": {
+    "message": "« Delete forever » button not found",
+    "description": "Failure reason"
+  },
+  "viewChangedBeforeDelete": {
+    "message": "The displayed conversation changed before the deletion",
+    "description": "Failure reason"
+  },
+  "stillDisplayedAfterDelete": {
+    "message": "The conversation is still displayed after the deletion",
+    "description": "Failure reason"
+  },
+  "unexpectedConfirmation": {
+    "message": "Gmail asked for an unexpected confirmation: deletion cancelled",
+    "description": "Failure reason"
+  },
+  "spamListNotShown": {
+    "message": "Spam list not shown",
+    "description": "Failure reason"
+  },
+  "leftoversOpen": {
+    "message": "Gmail menu or confirmation left open",
+    "description": "Failure reason"
+  },
+  "dryRunMode": {
+    "message": "Dry-run mode",
+    "description": "Popup switch label"
+  },
+  "dryRunStatus": {
+    "message": "Nothing is sent to Google: the ⋮ menu is opened, then closed.",
+    "description": "Popup status in dry-run mode"
+  },
+  "realModeStatus": {
+    "message": "Real mode: confirmed conversations are really reported.",
+    "description": "Popup status in real mode"
+  },
+  "resetDryRun": {
+    "message": "Reset the dry run",
+    "description": "Popup button"
+  },
+  "nothingToReset": {
+    "message": "Nothing to reset."
+  },
+  "resetDoneOne": {
+    "message": "Dry run reset: 1 conversation forgotten."
+  },
+  "resetDoneMany": {
+    "message": "Dry run reset: $count$ conversations forgotten.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "tabsReload": {
+    "message": "Gmail tabs reload to apply the change."
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "extName": {
+    "message": "Bulk Phishing Report for Gmail",
+    "description": "Extension name"
+  },
+  "extShortName": {
+    "message": "Bulk Phishing Report",
+    "description": "Short extension name"
+  },
+  "extDescription": {
+    "message": "Signale comme hameçonnage les conversations sélectionnées dans le dossier Spam de Gmail.",
+    "description": "Extension description"
+  },
+  "actionTitle": {
+    "message": "Bulk Phishing Report for Gmail : mode simulation",
+    "description": "Tooltip of the toolbar icon"
+  },
+  "reportSelection": {
+    "message": "Signaler la sélection",
+    "description": "Button in the Spam toolbar"
+  },
+  "dryRunSuffix": {
+    "message": " (simulation)",
+    "description": "Appended to the button and dialog titles in dry-run mode"
+  },
+  "badgeReported": {
+    "message": "Signalé",
+    "description": "Badge on a conversation already reported"
+  },
+  "nothingToReport": {
+    "message": "Rien à signaler",
+    "description": "Dialog title"
+  },
+  "noConversationRecognised": {
+    "message": "Aucune conversation reconnue dans la sélection."
+  },
+  "alreadyReportedOne": {
+    "message": "Cette conversation est déjà signalée."
+  },
+  "alreadyReportedMany": {
+    "message": "Ces $count$ conversations sont déjà signalées.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmTitleOne": {
+    "message": "Signaler 1 conversation comme hameçonnage ?",
+    "description": "Confirmation title"
+  },
+  "confirmTitleMany": {
+    "message": "Signaler $count$ conversations comme hameçonnage ?",
+    "description": "Confirmation title",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "dryRunNotice": {
+    "message": "Simulation : rien ne sera envoyé à Google."
+  },
+  "skippedOne": {
+    "message": "1 conversation déjà signalée sera ignorée."
+  },
+  "skippedMany": {
+    "message": "$count$ conversations déjà signalées seront ignorées.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteOption": {
+    "message": "Supprimer définitivement après le signalement (irréversible)",
+    "description": "Checkbox label"
+  },
+  "deleteOptionDryRun": {
+    "message": "Supprimer définitivement après le signalement (simulé : rien n’est supprimé)",
+    "description": "Checkbox label in dry-run mode"
+  },
+  "cancel": {
+    "message": "Annuler",
+    "description": "Button"
+  },
+  "report": {
+    "message": "Signaler",
+    "description": "Button"
+  },
+  "close": {
+    "message": "Fermer",
+    "description": "Button"
+  },
+  "runningTitle": {
+    "message": "Signalement en cours",
+    "description": "Progress dialog title"
+  },
+  "progress": {
+    "message": "$index$/$total$ traitée(s)…",
+    "description": "Progress text",
+    "placeholders": {
+      "index": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "stop": {
+    "message": "Arrêter",
+    "description": "Button"
+  },
+  "stopping": {
+    "message": "Arrêt après la conversation en cours…",
+    "description": "Stop button once clicked"
+  },
+  "doneTitle": {
+    "message": "Signalement terminé",
+    "description": "Summary title"
+  },
+  "stoppedTitle": {
+    "message": "Signalement arrêté",
+    "description": "Summary title after a stop"
+  },
+  "reportedOne": {
+    "message": "1 réussi",
+    "description": "Summary counter"
+  },
+  "reportedMany": {
+    "message": "$count$ réussis",
+    "description": "Summary counter",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "failedCount": {
+    "message": "$count$ en échec",
+    "description": "Summary counter",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "deletedCount": {
+    "message": "$count$ supprimée(s)",
+    "description": "Summary counter",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "skippedCount": {
+    "message": "$count$ ignorée(s) car déjà signalée(s)",
+    "description": "Summary counter",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "notProcessedCount": {
+    "message": "$count$ non traitée(s) à cause de l’arrêt",
+    "description": "Summary counter",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "reportByHand": {
+    "message": "À signaler à la main :"
+  },
+  "deleteByHand": {
+    "message": "Signalées, mais à supprimer à la main :"
+  },
+  "withReason": {
+    "message": " : $reason$",
+    "description": "Appended to a conversation with its failure reason",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "runInterrupted": {
+    "message": "Signalement interrompu",
+    "description": "Error dialog title"
+  },
+  "errorMessage": {
+    "message": "Erreur : $message$",
+    "description": "Error dialog text",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "afterSeconds": {
+    "message": "$reason$ (après $seconds$ s)",
+    "description": "Failure reason after a timeout",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      },
+      "seconds": {
+        "content": "$2"
+      }
+    }
+  },
+  "invalidConversationId": {
+    "message": "Identifiant de conversation invalide",
+    "description": "Failure reason"
+  },
+  "conversationNotOpened": {
+    "message": "Conversation non ouverte",
+    "description": "Failure reason"
+  },
+  "messageMenuNotFound": {
+    "message": "Menu ⋮ du message introuvable",
+    "description": "Failure reason"
+  },
+  "reportItemNotFound": {
+    "message": "Entrée « Signaler un hameçonnage » introuvable dans le menu ⋮",
+    "description": "Failure reason"
+  },
+  "confirmationNotShown": {
+    "message": "Confirmation de Gmail non affichée",
+    "description": "Failure reason"
+  },
+  "confirmButtonNotFound": {
+    "message": "Bouton de confirmation introuvable",
+    "description": "Failure reason"
+  },
+  "viewChangedBeforeConfirm": {
+    "message": "La conversation affichée a changé avant la confirmation",
+    "description": "Failure reason"
+  },
+  "confirmationNotClosed": {
+    "message": "La confirmation de Gmail ne s’est pas fermée",
+    "description": "Failure reason"
+  },
+  "menuStillOpen": {
+    "message": "Menu ⋮ resté ouvert",
+    "description": "Failure reason"
+  },
+  "conversationNotReopened": {
+    "message": "Conversation non rouverte pour la suppression",
+    "description": "Failure reason"
+  },
+  "conversationsChecked": {
+    "message": "Des conversations sont cochées dans la liste : suppression évitée",
+    "description": "Failure reason"
+  },
+  "deleteButtonNotFound": {
+    "message": "Bouton « Supprimer définitivement » introuvable",
+    "description": "Failure reason"
+  },
+  "viewChangedBeforeDelete": {
+    "message": "La conversation affichée a changé avant la suppression",
+    "description": "Failure reason"
+  },
+  "stillDisplayedAfterDelete": {
+    "message": "La conversation est toujours affichée après la suppression",
+    "description": "Failure reason"
+  },
+  "unexpectedConfirmation": {
+    "message": "Gmail a demandé une confirmation inattendue : suppression annulée",
+    "description": "Failure reason"
+  },
+  "spamListNotShown": {
+    "message": "Liste Spam non affichée",
+    "description": "Failure reason"
+  },
+  "leftoversOpen": {
+    "message": "Menu ou confirmation de Gmail restés ouverts",
+    "description": "Failure reason"
+  },
+  "dryRunMode": {
+    "message": "Mode simulation",
+    "description": "Popup switch label"
+  },
+  "dryRunStatus": {
+    "message": "Rien n’est envoyé à Google : le menu ⋮ est ouvert puis refermé.",
+    "description": "Popup status in dry-run mode"
+  },
+  "realModeStatus": {
+    "message": "Mode réel : les conversations confirmées sont vraiment signalées.",
+    "description": "Popup status in real mode"
+  },
+  "resetDryRun": {
+    "message": "Réinitialiser la simulation",
+    "description": "Popup button"
+  },
+  "nothingToReset": {
+    "message": "Rien à réinitialiser."
+  },
+  "resetDoneOne": {
+    "message": "Simulation réinitialisée : 1 conversation oubliée."
+  },
+  "resetDoneMany": {
+    "message": "Simulation réinitialisée : $count$ conversations oubliées.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "tabsReload": {
+    "message": "Les onglets Gmail se rechargent pour appliquer le changement."
+  }
+}
